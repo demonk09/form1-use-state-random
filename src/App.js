@@ -11,7 +11,7 @@ export default function App() {
   }
   let [c1, setc1] = useState(0)
   let ran = () => {
-    setc1(Math.round(Math.random(c) * 100+999))
+    setc1(Math.round(Math.random(c) * 12))
   }
 
   return (
